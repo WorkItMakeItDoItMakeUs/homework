@@ -1,9 +1,12 @@
 theme: dta_rapid
+
 exclude:
-- ".gitignore"
-- "README.md"
-- "Gemfile.lock"
-- "Gemfile"
+  - ".gitignore"
+  - "README.md"
+  - "Gemfile.lock"
+  - "Gemfile"
+  - "vendor/bundle"
+
 defaults:
   -
     scope:

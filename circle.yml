@@ -3,5 +3,5 @@ deployment:
   integration:
     branch: master
     commands:
-      - aws s3 sync ./_site/://homework-prototype/ --delete
+      - aws s3 sync ./_site/ s3://homework-prototype/ --delete
 

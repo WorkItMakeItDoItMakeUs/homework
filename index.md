@@ -7,3 +7,5 @@
   1. [{{ page.title }}]({{ page.url }})
   {% endif %}
 {% endfor %}
+
+<button onClick="localStorage.clear();alert('Reset Successful');">Reset Button</button>

@@ -1,3 +1,6 @@
+compile:
+  override:
+    - bundle exec jekyll build
 
 deployment:
   integration:

@@ -1,7 +1,9 @@
 ---
 indexed: true
 title: "Login Screen"
-order: 1
+order: 2
 ---
 
 # Login Screen
+
+`[% include "login form" %]`

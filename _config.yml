@@ -1,7 +1,12 @@
 theme: dta_rapid
+exclude:
+- ".gitignore"
+- "README.md"
+- "Gemfile.lock"
+- "Gemfile"
 defaults:
   -
-   scope:
-     path: ""
-   values:
+    scope:
+      path: ""
+    values:
      layout: "default"

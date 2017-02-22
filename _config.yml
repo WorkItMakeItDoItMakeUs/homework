@@ -1,0 +1,7 @@
+theme: dta_rapid
+defaults:
+  -
+   scope:
+     path: ""
+   values:
+     layout: "default"

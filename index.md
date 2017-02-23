@@ -8,4 +8,4 @@
   {% endif %}
 {% endfor %}
 
-<button onClick="localStorage.clear();alert('Reset Successful');">Reset Button</button>
+<button onClick="localStorage.clear();alert('Reset Successful')">Reset Button</button>

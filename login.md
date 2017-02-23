@@ -6,4 +6,8 @@ order: 2
 
 # Login Screen
 
-`[% include "login form" %]`
+{% include forms/text-field.html label="myGov Username" id="login_email" %}
+{% include forms/text-field.html label="Password" type="password" id="login_password" %}
+
+<a class="button button--primary" href="/post-login.html">Login</a>
+<a href="/forgot-password">Need help logging in?</a>

@@ -10,4 +10,4 @@ order: 4
 * Your receipt
 * About 1 minute per claim
 
-<a class="button button--primary button--full-width-on-mobile" href="/ocr-experiment/upload-receipt.html">START YOUR CLAIM</a>
+<a class="button button--primary button--full-width-on-mobile" href="/ocr-experiment/upload-receipt.html">Start Your Claim</a>

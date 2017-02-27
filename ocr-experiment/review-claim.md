@@ -13,8 +13,6 @@ title: "Review your claim"
 
 {% include forms/text-field.html label="Provider number" id="provider_number" value="221979JW" %}
 
-{% include forms/text-field.html label="Provider number" id="provider_number" value="221979JW" %}
-
 {% include forms/text-field.html label="Patient" id="patient" value="John Smith" %}
 
 <a class="button button--primary button--full-width-on-mobile" href="/ocr-experiment/claim-success.html">Submit</a>

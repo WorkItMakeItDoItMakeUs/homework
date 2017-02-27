@@ -5,7 +5,7 @@ title: "Receipt upload successful"
 <style>
 img {
   width: auto;
-  max-height: 400px;
+  max-height: 300px;
   margin-left: auto;
   margin-right: auto;
   display: block;  

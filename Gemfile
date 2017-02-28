@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem "dta_rapid"
+gem "dta_rapid", "0.2.16"
 
 group :development, :test do
   gem "rspec",    "~>3.5"

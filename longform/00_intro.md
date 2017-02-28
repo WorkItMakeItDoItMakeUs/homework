@@ -2,13 +2,14 @@
 islongform: true
 title: "Start Page"
 ---
-## Submit a claim to Medicare online
+{% include typography/badge.html text="Prototype" %}
+## Submit a medical expense claim online
 
-If you have paid for a medical expense, you can submit a claim for Medicare benefits online. 
+If you have paid for a medical expense, you can submit a claim online. 
 
-You can submit up to 10 medical service items from a Health Provider in a claim. You can claim for any person listed on your Medicare card. 
+You can submit up to 10 medical service items from a Health Provider in a claim. You can claim for any person listed on your account. 
 
-You cannot claim online for hospital and approved day facility inpatient services. If you have been bulk billed by the health privider, you cannot claim any more benefits.
+You cannot claim online for hospital and approved day facility inpatient services. If you have been bulk billed by the health provider, you cannot claim any more benefits.
 
 {% include buttons/start-button.html href="/longform/01_form.html" %}
 

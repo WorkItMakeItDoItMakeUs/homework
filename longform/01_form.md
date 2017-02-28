@@ -4,9 +4,18 @@ title: "Form"
 ---
 ## Create Claim
 
-### 1. Who are your claiming the Medicare benefit for?
+{% include forms/error-container.html text="Please enter the missing information below" %}
 
-{% include forms/radio-field.html question="Select the person who recieved the medical service" options="Julie General|Bertie Dependant" %} 
+<form id="form" markdown="1" data-parsley-validate="" data-parsley-error-class="invalid">
+
+### 1. Who are you claiming the medical expense for?
+
+{% include forms/radio-field.html
+   required=true
+   question="Select the person who recieved the medical service"
+   options="Julie General|Bertie Dependant"
+   validation_message="Please select the person who recieved the medical service from the list"
+%} 
 
 ### 2. Attach the receipt from the health provider
 
@@ -23,27 +32,54 @@ The name and provider number of the service provider is usually at the top of th
 {% include forms/text-field.html
   label="Provider name"
   id="health-provider-name"
-  name="health-provider-name" %}
+  name="health-provider-name"
+  required="true"
+  validation_message="To process your claim we need to know the name of the provider who delivered the healthcare service"
+%}
 
 ##### Their Provider Number
 
 {% include forms/text-field.html
   label="Provider number"
   id="health-provider-name"
-  name="health-provider-name" %}
+  name="health-provider-name"
+  required="true"
+  validation_message="Provider number must be a group of numbers followed by two letters"
+%}
 
 ### 4. List each service item
 List the services as they appear on the receipt from your health provider.
 
-Date of Service
-DATE PICKER
+{% include forms/date-field.html
+   label="Date of Service"
+   id="date-of-service"
+   required="true"
+   validation_message="To process your claim we need to know when the service was recieved from the healthcare provider"
+%}
 
+{% include forms/text-field.html
+   label="Item Number"
+   id="item-number"
+   name="item-number"
+   required="true"
+   pattern="[0-9]*"
+   validation_message="Item numbers must be numbers (no letters or special characters)"
+%}
 
-Item Number <input type="text" id="name" name="name"/>
+<!-- * *-->
+e.g Item <strong>10958</strong> - Occupational Therapy Health Service
 
-(EXAMPLE: Item 10958 – Occupational Therapy Health Service)
+{% include forms/text-field.html
+   label="Fee"
+   id="fee"
+   name="fee"
+   required="true"
+   pattern="[0-9.]*"
+%}
 
-Fee <input type="text" id="name" name="name"/>
 
 {% include buttons/control-button.html text="Add another service item" %}
 
+{% include forms/submit-button.html %}
+
+</form>

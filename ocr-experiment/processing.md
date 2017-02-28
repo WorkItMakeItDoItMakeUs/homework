@@ -1,6 +1,6 @@
 ---
 indexed: true
-title: "Processing..."
+title: "Processing…"
 ---
 
 <style>
@@ -61,7 +61,7 @@ title: "Processing..."
 <h1>Processing...</h1>
 
 <div class="three-quarters-loader">
-    Processing...
+    Processing&hellip;
 </div>
 
 <p>This should take around five seconds.</p>

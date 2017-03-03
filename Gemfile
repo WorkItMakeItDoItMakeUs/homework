@@ -1,4 +1,5 @@
 source "https://rubygems.org"
+ruby '2.4.0'
 
 gem "dta_rapid", "0.2.16"
 

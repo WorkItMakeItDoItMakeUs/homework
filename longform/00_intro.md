@@ -11,7 +11,7 @@ You can submit up to 10 medical service items from a Health Provider in a claim.
 
 You cannot claim online for hospital and approved day facility inpatient services. If you have been bulk billed by the health provider, you cannot claim any more benefits.
 
-{% include buttons/start-button.html href="/longform/01_form.html" %}
+{% include buttons/link-button.html href="/longform/01_form.html" text="Start" %}
 
 # To make a claim online, you'll need
 

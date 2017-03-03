@@ -78,7 +78,7 @@ e.g Item <strong>10958</strong> - Occupational Therapy Health Service
 %}
 
 
-{% include buttons/control-button.html text="Add another service item" %}
+{% include buttons/link-button.html text="Add another service item" %}
 
 {% include forms/submit-button.html %}
 

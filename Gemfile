@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 ruby '2.4.0'
 
-gem "dta_rapid", "~> 0.3.2"
+gem "dta_rapid"
 
 group :development, :test do
   gem "rspec",    "~>3.5"
